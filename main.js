@@ -1,5 +1,17 @@
-// CREATE VARIABLES TO MANIPULATE ELEMENTS IN CSS CLASSES ...
+/******************************
+VARIABLES TO MANIPULATE
+******************************/
+
+// Manipulate later via css class selectors ...
 const myForm = document.querySelector('.add-tasks');
 let myList = document.querySelector('.todos')
 
-// CREATING A TASK
+
+/******************************
+CREATE A TASK
+******************************/
+
+// Ability to add to the list
+const create = function() {
+    list.innerHTML += <li class="list-item"></li>
+}
